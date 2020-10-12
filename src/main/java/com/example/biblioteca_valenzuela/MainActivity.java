@@ -85,6 +85,8 @@ public class MainActivity extends AppCompatActivity {
         libros.add("farenheith");
         libros.add("revival");
         libros.add("elAlquimista");
+        libros.add("elpoder");
+        libros.add("despertar");
 
 
 

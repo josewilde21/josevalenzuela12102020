@@ -46,6 +46,8 @@ public class github_act extends AppCompatActivity {
         int resultFarenheith = libro.getFarenheith();
         int resultRevival =  libro.getRevival();
         int resultElAlquimista = libro.getElAlquimista();
+        int resultElpoder = libro.getElpoder();
+        int resultDespertar = libro.getDespertar();
 
 
         // Inteligencia farenheith
@@ -68,6 +70,16 @@ public class github_act extends AppCompatActivity {
         if(libros.equals("elAlquimista") )
         {
             text.setText("El precio del plan es: "+resultElAlquimista );
+        }
+
+        if(libros.equals("elpoder") )
+        {
+            text.setText("El precio del plan es: "+resultElpoder );
+        }
+
+        if(libros.equals("despertar") )
+        {
+            text.setText("El precio del plan es: "+resultDespertar );
         }
 
 
